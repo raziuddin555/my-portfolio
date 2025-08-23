@@ -47,6 +47,7 @@ import sclLogo from './assets/education_logo/school_logo.jpg';
 import contactusLogo from './assets/work_logo/contactus.png';
 import newsappLogo from './assets/work_logo/newsapp.png'
 import calulatorbmiLogo from './assets/work_logo/calulatorbmi.png'
+import wanderlustLogo from './assets/work_logo/wanderlust.png'
 
 
 export const SkillsInfo = [{
@@ -156,8 +157,20 @@ export const education = [{
     },
 ];
 
+
+// Project
 export const projects = [{
         id: 0,
+        title: "Wanderlust",
+        description: "Wanderlust is a MERN stack-based hotel booking application that enables users to search, filter, and book hotels seamlessly. It offers a responsive React interface, secure Node.js and Express.js backend, and MongoDB database for efficient data management. The platform simplifies reservations, ensuring a smooth and reliable booking experience.",
+        image: wanderlustLogo,
+        tags: ["JavaScript", "tailwind Css", "React JS", "MongoDB", "Express", "Node.js", ],
+        github: "https://github.com/raziuddin555/Wanderlust",
+        webapp: "https://wanderlust-razi.netlify.app/",
+    },
+
+    {
+        id: 1,
         title: "Contact-us",
         description: "The Contact Us page is a full-stack feature developed using React, Express.js, Node.js, and MongoDB. It allows users to submit their name, email, and message through a responsive and user-friendly form. On submission, the data is validated on the client side and sent to the backend API built with Express and Node.js. The backend handles email sending functionality and also stores the messages securely in a MongoDB database for future reference. This implementation ensures reliable communication, data persistence, and seamless integration between frontend and backend.",
         image: contactusLogo,
@@ -167,7 +180,7 @@ export const projects = [{
     },
 
     {
-        id: 1,
+        id: 2,
         title: "News App",
         description: "This is a responsive and dynamic News Application developed using React.js and integrated with the News API. It fetches real-time news articles from various categories such as business, technology, sports, entertainment, and more. The app features a clean UI, seamless navigation, and efficient API handling to provide users with up-to-date and relevant news content. It also includes features like category-based filtering, loading indicators, and error handling for a smooth user experience.",
         image: newsappLogo,
@@ -177,7 +190,7 @@ export const projects = [{
     },
 
     {
-        id: 2,
+        id: 3,
         title: "Calculator-BMI",
         description: "The BMI (Body Mass Index) Calculator is a simple and responsive web application built using React.js. It allows users to calculate their BMI by entering their height and weight. Based on the input, the app instantly computes the BMI and displays the result along with a category such as Underweight, Normal, Overweight, or Obese.This project uses React functional components and the useState hook to manage input and output states efficiently. The user interface is clean, intuitive, and mobile-friendly, making it easy for users of all age groups to navigate and understand their health status.",
         image: calulatorbmiLogo,
