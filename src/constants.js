@@ -169,15 +169,15 @@ export const projects = [{
         webapp: "https://wanderlust-razi.netlify.app/",
     },
 
-    {
-        id: 1,
-        title: "Contact-us",
-        description: "The Contact Us page is a full-stack feature developed using React, Express.js, Node.js, and MongoDB. It allows users to submit their name, email, and message through a responsive and user-friendly form. On submission, the data is validated on the client side and sent to the backend API built with Express and Node.js. The backend handles email sending functionality and also stores the messages securely in a MongoDB database for future reference. This implementation ensures reliable communication, data persistence, and seamless integration between frontend and backend.",
-        image: contactusLogo,
-        tags: ["HTML", "CSS", "JavaScript", "React JS", "Express JS", "Node JS", "MongoDB", "API"],
-        github: "https://github.com/raziuddin555/contactus",
-        webapp: "https://razi-contactus.netlify.app/",
-    },
+    // {
+    //     id: 1,
+    //     title: "Contact-us",
+    //     description: "The Contact Us page is a full-stack feature developed using React, Express.js, Node.js, and MongoDB. It allows users to submit their name, email, and message through a responsive and user-friendly form. On submission, the data is validated on the client side and sent to the backend API built with Express and Node.js. The backend handles email sending functionality and also stores the messages securely in a MongoDB database for future reference. This implementation ensures reliable communication, data persistence, and seamless integration between frontend and backend.",
+    //     image: contactusLogo,
+    //     tags: ["HTML", "CSS", "JavaScript", "React JS", "Express JS", "Node JS", "MongoDB", "API"],
+    //     github: "https://github.com/raziuddin555/contactus",
+    //     webapp: "https://razi-contactus.netlify.app/",
+    // },
 
     {
         id: 2,
@@ -186,7 +186,7 @@ export const projects = [{
         image: newsappLogo,
         tags: ["React JS", "news API"],
         github: "https://github.com/raziuddin555/News-App",
-        webapp: "https://newsapp555.netlify.app/",
+        webapp: "https://news-app-razi.netlify.app/",
     },
 
     {
@@ -196,7 +196,7 @@ export const projects = [{
         image: calulatorbmiLogo,
         tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
         github: "https://calculator-bmi-razi.netlify.app/",
-        webapp: "https://github.com/raziuddin555/calculatorBmi",
+        webapp: "https://calculatorbmirazi.netlify.app/",
     },
 
     // {
