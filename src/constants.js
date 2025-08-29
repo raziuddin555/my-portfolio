@@ -195,7 +195,7 @@ export const projects = [{
         description: "The BMI (Body Mass Index) Calculator is a simple and responsive web application built using React.js. It allows users to calculate their BMI by entering their height and weight. Based on the input, the app instantly computes the BMI and displays the result along with a category such as Underweight, Normal, Overweight, or Obese.This project uses React functional components and the useState hook to manage input and output states efficiently. The user interface is clean, intuitive, and mobile-friendly, making it easy for users of all age groups to navigate and understand their health status.",
         image: calulatorbmiLogo,
         tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-        github: "https://calculator-bmi-razi.netlify.app/",
+        github: "https://github.com/raziuddin555/calculatorBmi",
         webapp: "https://calculatorbmirazi.netlify.app/",
     },
 
