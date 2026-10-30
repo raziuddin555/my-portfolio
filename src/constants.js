@@ -1,53 +1,44 @@
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
-// import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-// import angularLogo from './assets/tech_logo/angular.png';
 import reduxLogo from './assets/tech_logo/redux.png';
-// import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-// import gsapLogo from './assets/tech_logo/gsap.png';
 import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-// import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
-// import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-// import firebaseLogo from './assets/tech_logo/firebase.png';
-// import cLogo from './assets/tech_logo/c.png';
-// import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
-// import pythonLogo from './assets/tech_logo/python.png';
-// import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
-// import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
-// import vercelLogo from './assets/tech_logo/vercel.png';
-// import postgreLogo from './assets/tech_logo/postgre.png';
-// import csharpLogo from './assets/tech_logo/csharp.png';
+
 
 // Experience Section Logo's
 import HanumantLogo from './assets/company_logo/Hanumant_Technology_Logo.jpeg';
-// import agcLogo from './assets/company_logo/agc_logo.png';
-// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import InternshalaLogo from './assets/company_logo/internshala.jpeg';
+
+
 
 // Education Section Logo's
 import clgLogo from './assets/education_logo/clg_logo.jpg';
-
 import sclLogo from './assets/education_logo/school_logo.jpg';
 
+
 // Project Section Logo's
+import razicartLogo from './assets/work_logo/razicart.jpeg';
+import razicartAdminLogo from './assets/work_logo/raziAdmin.jpeg';
+import airbnbLogo from './assets/work_logo/airbnb.jpeg'
+import examnotesLogo from './assets/work_logo/examnotes.jpeg'
 import contactusLogo from './assets/work_logo/contactus.png';
 import newsappLogo from './assets/work_logo/newsapp.png'
 import calulatorbmiLogo from './assets/work_logo/calulatorbmi.png'
-import wanderlustLogo from './assets/work_logo/wanderlust.png'
+
 
 
 export const SkillsInfo = [{
@@ -107,26 +98,61 @@ export const SkillsInfo = [{
 ];
 
 export const experiences = [{
-    id: 0,
-    img: HanumantLogo,
-    role: "Fullstack Developer",
-    company: "Hanumant Technology",
-    date: "February 2025 - Present",
-    desc: "I am currently undergoing training and internship in MERN Stack Development at Hanumant Technology. During this program, I am gaining hands-on experience in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. This opportunity is helping me strengthen my understanding of front-end and back-end development, API integration, and database management. I am also working on real-world projects, collaborating with a team, and learning best practices in coding and software development. This training is a significant step in my journey toward becoming a skilled and job-ready full-stack developer.",
-    skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        "Bootstrap",
+        id: 0,
+        img: HanumantLogo,
+        role: "Fullstack Developer",
+        company: "Hanumant Technology",
+        date: "February 2025 - July 2025",
+        desc: "Completed a 6-month MERN Stack Full Stack Development training program at Hanumant Technology Pvt. Ltd., Lucknow (February 2025 – July 2025). Gained practical experience in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Learned frontend development, backend development, RESTful API integration, database management, user authentication, and responsive UI design. Worked on hands-on projects to strengthen programming, problem-solving, and real-world application development skills. Also gained experience with JavaScript, Git, GitHub, and modern web development tools.",
+        skills: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React JS",
+            "Node JS",
+            "Tailwind CSS",
+            "MongoDb",
+            "Redux",
+            "Express JS",
+            "DSA",
+            "REST API",
+            "Git",
+            "GitHub",
 
-    ],
-}, ];
+        ],
+    },
 
+    {
+        id: 1,
+        img: InternshalaLogo,
+        role: "Full Stack Development Internship",
+        company: "Internshala",
+        date: "14 January 2026 - 14 July 2026",
+        desc: "Successfully completed a 6-month online Internship + Training program in MERN Stack Full Stack Development with AI through Internshala (14 January – 14 July). Gained hands-on experience in developing full-stack web applications using MongoDB, Express.js, React.js, and Node.js. Learned to build RESTful APIs, manage databases, implement authentication and authorization, and develop responsive user interfaces. Also gained practical knowledge of AI integration using AI APIs, Git, and GitHub. Worked on practical projects that strengthened my problem-solving skills and ability to develop modern, scalable, AI-powered web applications.",
+        skills: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React JS",
+            "Node JS",
+            "Tailwind CSS",
+            "MongoDb",
+            "Redux",
+            "Express JS",
+            "DSA",
+            "AI API",
+            "Git",
+            "GitHub",
+            "REST API",
+
+        ],
+
+    }
+
+];
+
+
+// Education 
 export const education = [{
         id: 0,
         img: clgLogo,
@@ -159,28 +185,30 @@ export const education = [{
 
 
 // Project
-export const projects = [{
-        id: 0,
-        title: "Wanderlust",
-        description: "Wanderlust is a MERN stack-based hotel booking application that enables users to search, filter, and book hotels seamlessly. It offers a responsive React interface, secure Node.js and Express.js backend, and MongoDB database for efficient data management. The platform simplifies reservations, ensuring a smooth and reliable booking experience.",
-        image: wanderlustLogo,
-        tags: ["JavaScript", "tailwind Css", "React JS", "MongoDB", "Express", "Node.js", ],
-        github: "https://github.com/raziuddin555/Wanderlust",
-        webapp: "https://wanderlust-razi.netlify.app/",
-    },
-
-    // {
-    //     id: 1,
-    //     title: "Contact-us",
-    //     description: "The Contact Us page is a full-stack feature developed using React, Express.js, Node.js, and MongoDB. It allows users to submit their name, email, and message through a responsive and user-friendly form. On submission, the data is validated on the client side and sent to the backend API built with Express and Node.js. The backend handles email sending functionality and also stores the messages securely in a MongoDB database for future reference. This implementation ensures reliable communication, data persistence, and seamless integration between frontend and backend.",
-    //     image: contactusLogo,
-    //     tags: ["HTML", "CSS", "JavaScript", "React JS", "Express JS", "Node JS", "MongoDB", "API"],
-    //     github: "https://github.com/raziuddin555/contactus",
-    //     webapp: "https://razi-contactus.netlify.app/",
-    // },
+export const projects = [
 
     {
-        id: 2,
+        id: 0,
+        title: "AirBnb Clone",
+        description: "Airbnb Clone is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js), allowing users to explore property listings, add new properties, manage accommodations, and share reviews through a responsive and user-friendly interface.",
+        image: airbnbLogo,
+        tags: ["JavaScript", "tailwind Css", "React JS", "MongoDB", "Express", "Node.js", ],
+        github: "https://github.com/raziuddin555/Airbnb",
+        webapp: "https://airbnb-frontend-qpvk.onrender.com",
+    },
+
+    {
+        id: 1,
+        title: "Contact-us",
+        description: "The Contact Us page is a full-stack feature developed using React, Express.js, Node.js, and MongoDB. It allows users to submit their name, email, and message through a responsive and user-friendly form. On submission, the data is validated on the client side and sent to the backend API built with Express and Node.js. The backend handles email sending functionality and also stores the messages securely in a MongoDB database for future reference. This implementation ensures reliable communication, data persistence, and seamless integration between frontend and backend.",
+        image: contactusLogo,
+        tags: ["HTML", "CSS", "JavaScript", "React JS", "Express JS", "Node JS", "MongoDB", "API"],
+        github: "https://github.com/raziuddin555/contactus",
+        webapp: "https://razi-contactus.netlify.app/",
+    },
+
+    {
+        id: 5,
         title: "News App",
         description: "This is a responsive and dynamic News Application developed using React.js and integrated with the News API. It fetches real-time news articles from various categories such as business, technology, sports, entertainment, and more. The app features a clean UI, seamless navigation, and efficient API handling to provide users with up-to-date and relevant news content. It also includes features like category-based filtering, loading indicators, and error handling for a smooth user experience.",
         image: newsappLogo,
@@ -190,13 +218,13 @@ export const projects = [{
     },
 
     {
-        id: 3,
+        id: 6,
         title: "Calculator-BMI",
         description: "The BMI (Body Mass Index) Calculator is a simple and responsive web application built using React.js. It allows users to calculate their BMI by entering their height and weight. Based on the input, the app instantly computes the BMI and displays the result along with a category such as Underweight, Normal, Overweight, or Obese.This project uses React functional components and the useState hook to manage input and output states efficiently. The user interface is clean, intuitive, and mobile-friendly, making it easy for users of all age groups to navigate and understand their health status.",
         image: calulatorbmiLogo,
         tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-        github: "https://github.com/raziuddin555/calculatorBmi",
-        webapp: "https://calculatorbmirazi.netlify.app/",
+        github: "https://calculator-bmi-razi.netlify.app/",
+        webapp: "https://github.com/raziuddin555/calculatorBmi",
     },
 
     // {
