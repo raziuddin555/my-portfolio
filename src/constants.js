@@ -21,7 +21,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 
 // Experience Section Logo's
 import HanumantLogo from './assets/company_logo/Hanumant_Technology_Logo.jpeg';
-import InternshalaLogo from './assets/company_logo/internshala.jpeg';
+import InternshalaLogo from './assets/company_logo/Internshala.jpeg';
 
 
 
