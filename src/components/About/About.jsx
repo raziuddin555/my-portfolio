@@ -58,11 +58,9 @@ const About = () => {
               boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
             }}
           >
-<<<<<<< HEAD
-            DOWNLOAD RESUME
-=======
+
             DOWNLOAD Resume
->>>>>>> 81450d9 (Update portfolio projects and experience section)
+ {/* (Resume) */}
           </a>
           
         </div>
