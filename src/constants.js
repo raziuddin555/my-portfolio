@@ -38,6 +38,7 @@ import examnotesLogo from './assets/work_logo/examnotes.jpeg'
 import contactusLogo from './assets/work_logo/contactus.png';
 import newsappLogo from './assets/work_logo/newsapp.png'
 import calulatorbmiLogo from './assets/work_logo/calulatorbmi.png'
+import weatherLogo from './assets/work_logo/weather.jpeg'
 
 
 
@@ -199,7 +200,7 @@ export const projects = [
 
 
     {
-        id: 4,
+        id: 2,
         title: "ExamNotes.AI",
         description: "ExamNotes.AI is an AI-powered study platform built using the MERN stack and Google Gemini API. It helps students generate smart study notes, create summaries, and organize learning materials efficiently. The platform also includes PDF generation, payment integration, data visualization, and interactive diagrams to enhance the learning experience.",
         image: examnotesLogo,
@@ -211,7 +212,7 @@ export const projects = [
 
 
     {
-        id: 2,
+        id: 3,
         title: "RaziCart AI Powered E-Commerce",
         description: "RaziCart is an AI-powered full-stack e-commerce web application built using the MERN stack. It provides a seamless shopping experience with intelligent product recommendations, user authentication, product management, shopping cart functionality, and secure payment integration. Designed with a responsive and user-friendly interface for a smooth online shopping experience.",
         image: razicartLogo,
@@ -221,7 +222,7 @@ export const projects = [
     },
 
     {
-        id: 3,
+        id: 4,
         title: "RaziCart_Amin",
         description: "Razi Admin is an admin dashboard for managing the RaziCart AI-powered e-commerce platform. Built using modern web technologies, it enables administrators to manage products, monitor orders, track sales, manage users, and analyze business performance through an intuitive and responsive interface.",
         image: razicartAdminLogo,
@@ -231,18 +232,20 @@ export const projects = [
     },
 
     {
-        id: 1,
-        title: "Contact-us",
-        description: "The Contact Us page is a full-stack feature developed using React, Express.js, Node.js, and MongoDB. It allows users to submit their name, email, and message through a responsive and user-friendly form. On submission, the data is validated on the client side and sent to the backend API built with Express and Node.js. The backend handles email sending functionality and also stores the messages securely in a MongoDB database for future reference. This implementation ensures reliable communication, data persistence, and seamless integration between frontend and backend.",
-        image: contactusLogo,
-        tags: ["HTML", "CSS", "JavaScript", "React JS", "Express JS", "Node JS", "MongoDB", "API"],
-        github: "https://github.com/raziuddin555/contactus",
-        webapp: "https://razi-contactus.netlify.app/",
+        id: 5,
+        title: "Weather Forecast Application",
+        description: "A responsive Weather Forecast App built with HTML, CSS, and JavaScript using the OpenWeather API to display real-time weather information for different cities.",
+        image: weatherLogo,
+        tags: ["HTML", "CSS", "JavaScript"],
+        github: "https://github.com/raziuddin555/Weather-Forecast-Application",
+        webapp: "https://weather-forecast-razi.netlify.app/",
     },
 
 
+
+
     {
-        id: 5,
+        id: 6,
         title: "News App",
         description: "This is a responsive and dynamic News Application developed using React.js and integrated with the News API. It fetches real-time news articles from various categories such as business, technology, sports, entertainment, and more. The app features a clean UI, seamless navigation, and efficient API handling to provide users with up-to-date and relevant news content. It also includes features like category-based filtering, loading indicators, and error handling for a smooth user experience.",
         image: newsappLogo,
@@ -252,7 +255,7 @@ export const projects = [
     },
 
     {
-        id: 6,
+        id: 7,
         title: "Calculator-BMI",
         description: "The BMI (Body Mass Index) Calculator is a simple and responsive web application built using React.js. It allows users to calculate their BMI by entering their height and weight. Based on the input, the app instantly computes the BMI and displays the result along with a category such as Underweight, Normal, Overweight, or Obese.This project uses React functional components and the useState hook to manage input and output states efficiently. The user interface is clean, intuitive, and mobile-friendly, making it easy for users of all age groups to navigate and understand their health status.",
         image: calulatorbmiLogo,
@@ -268,7 +271,7 @@ export const projects = [
     //     image: ,
     //     tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
     //     github: "",
-    //     webapp: " ",
+    //     webapp: "",
     // },
 
 ];
