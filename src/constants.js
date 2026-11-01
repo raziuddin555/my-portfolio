@@ -32,7 +32,7 @@ import sclLogo from './assets/education_logo/school_logo.jpg';
 
 // Project Section Logo's
 import razicartLogo from './assets/work_logo/razicart.jpeg';
-import razicartAdminLogo from './assets/work_logo/raziAdmin.jpeg';
+import razicartAdminLogo from './assets/work_logo/raziadmin.jpeg';
 import airbnbLogo from './assets/work_logo/airbnb.jpeg'
 import examnotesLogo from './assets/work_logo/examnotes.jpeg'
 import contactusLogo from './assets/work_logo/contactus.png';
