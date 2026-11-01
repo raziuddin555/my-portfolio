@@ -197,6 +197,39 @@ export const projects = [
         webapp: "https://airbnb-frontend-qpvk.onrender.com",
     },
 
+
+    {
+        id: 4,
+        title: "ExamNotes.AI",
+        description: "ExamNotes.AI is an AI-powered study platform built using the MERN stack and Google Gemini API. It helps students generate smart study notes, create summaries, and organize learning materials efficiently. The platform also includes PDF generation, payment integration, data visualization, and interactive diagrams to enhance the learning experience.",
+        image: examnotesLogo,
+        tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+        github: "https://github.com/raziuddin555/ExamNotes.AI",
+        webapp: "https://examnotes-aiclient-ukmk.onrender.com",
+    },
+
+
+
+    {
+        id: 2,
+        title: "RaziCart AI Powered E-Commerce",
+        description: "RaziCart is an AI-powered full-stack e-commerce web application built using the MERN stack. It provides a seamless shopping experience with intelligent product recommendations, user authentication, product management, shopping cart functionality, and secure payment integration. Designed with a responsive and user-friendly interface for a smooth online shopping experience.",
+        image: razicartLogo,
+        tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+        github: "https://github.com/raziuddin555/AI-Powered-E-Commerce-RaziCart",
+        webapp: "https://razicart-frontend.onrender.com",
+    },
+
+    {
+        id: 3,
+        title: "RaziCart_Amin",
+        description: "Razi Admin is an admin dashboard for managing the RaziCart AI-powered e-commerce platform. Built using modern web technologies, it enables administrators to manage products, monitor orders, track sales, manage users, and analyze business performance through an intuitive and responsive interface.",
+        image: razicartAdminLogo,
+        tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+        github: "https://github.com/raziuddin555/AI-Powered-E-Commerce-RaziCart",
+        webapp: " https://razicart-admin.onrender.com",
+    },
+
     {
         id: 1,
         title: "Contact-us",
@@ -206,6 +239,7 @@ export const projects = [
         github: "https://github.com/raziuddin555/contactus",
         webapp: "https://razi-contactus.netlify.app/",
     },
+
 
     {
         id: 5,
@@ -223,8 +257,8 @@ export const projects = [
         description: "The BMI (Body Mass Index) Calculator is a simple and responsive web application built using React.js. It allows users to calculate their BMI by entering their height and weight. Based on the input, the app instantly computes the BMI and displays the result along with a category such as Underweight, Normal, Overweight, or Obese.This project uses React functional components and the useState hook to manage input and output states efficiently. The user interface is clean, intuitive, and mobile-friendly, making it easy for users of all age groups to navigate and understand their health status.",
         image: calulatorbmiLogo,
         tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-        github: "https://calculator-bmi-razi.netlify.app/",
-        webapp: "https://github.com/raziuddin555/calculatorBmi",
+        github: "https://github.com/raziuddin555/calculatorBmi",
+        webapp: "https://calculator-bmi-razi.netlify.app/",
     },
 
     // {
@@ -233,7 +267,7 @@ export const projects = [
     //     description: "",
     //     image: ,
     //     tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    //     github: "https://calculator-bmi-razi.netlify.app/",
+    //     github: "",
     //     webapp: " ",
     // },
 
